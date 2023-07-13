@@ -32,6 +32,10 @@ button{
     margin: 2rem auto;
     border:none
 }
+button:hover{
+    color:black;
+    background-color: white;
+}
 .card{
     margin:auto;
     width: 350px;
@@ -58,10 +62,16 @@ button{
     padding:0.5rem;
     color:var(--clr-rating-txt);
 }
+.rating-number:hover{
+    background-color: var(--clr-txt);
+}
 .rating-number h2{
    text-align: center;
     margin: auto;
     color:var(--clr-txt);
+}
+.rating-number h2:hover{
+    color: white;
 }
 .rating-number-bx{
     background-color:var(--clr-bg-text);
@@ -74,4 +84,8 @@ button{
 .bx{
     color:gold;
     padding: 0.3rem 0.3rem;
+}
+.numberClick{
+    background-color: var(--primary-clr-btn);
+    color:white;
 }
