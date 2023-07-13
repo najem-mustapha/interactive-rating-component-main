@@ -1,0 +1,77 @@
+
+:root{
+    --primary-clr-btn: hsl(25, 97%, 53%);
+    --White-clr:hsl(0, 0%, 100%);
+    --clr-txt: hsl(217, 12%, 63%);
+    --clr-rating-txt: hsl(0, 0%, 70%);
+    --clr-bg-cards: hsl(213, 19%, 18%);
+    --clr-bg-text: hsl(213, 19%, 25%);
+    --clr-bg-body: hsl(216, 12%, 8%);
+}
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: var(--White-clr);
+}
+p{
+    color:var(--clr-txt);
+}
+button{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 2rem;
+    background-color: var(--primary-clr-btn);
+    cursor: pointer;
+    color:white;
+    margin: 2rem auto;
+    border:none
+}
+.card{
+    margin:auto;
+    width: 350px;
+    border-radius: 1rem;
+    background-color: var(--clr-bg-cards);
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    line-height:2rem;
+    /* effet glass */
+    /* background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border:1px solid rgba(255,255,255,0.18);
+    border-radius:32px; */
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+.rating-number{
+    background-color:var(--clr-bg-text);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    padding:0.5rem;
+    color:var(--clr-rating-txt);
+}
+.rating-number h2{
+   text-align: center;
+    margin: auto;
+    color:var(--clr-txt);
+}
+.rating-number-bx{
+    background-color:var(--clr-bg-text);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    text-align: center;
+
+}
+.bx{
+    color:gold;
+    padding: 0.3rem 0.3rem;
+}
