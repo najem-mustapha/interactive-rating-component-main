@@ -55,14 +55,17 @@ button:hover{
     justify-content: space-between;
 }
 .rating-number{
+    z-index: 1;
     background-color:var(--clr-bg-text);
+    color:var(--clr-rating-txt);
     width: 35px;
     height: 35px;
     border-radius: 100%;
     padding:0.5rem;
-    color:var(--clr-rating-txt);
+
 }
 .rating-number:hover{
+    z-index: 1;
     background-color: var(--clr-txt);
 }
 .rating-number h2{
